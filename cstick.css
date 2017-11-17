@@ -3,6 +3,14 @@ body{
     background-image: url("candles.png");
     color:antiquewhite;
 }
+p{
+    font-size:24px;
+    font-family: calibri;
+}
+
+span{
+    color:#EC0B0B;
+}
 li{
     list-style: none;
     float: left;
@@ -13,7 +21,7 @@ a{
     color:antiquewhite;
     margin-left: auto;
 }
-h1, h2, h3,p{
+h1, h2, h3, p.maintext{
     text-align: center;
     font-family: copperplate gothic;
 }
@@ -29,11 +37,14 @@ ul{
     margin: 0;
     padding: 0;
 }
-.footer{
+.footer_text{
     bottom: 0;
     position: absolute;
+    font-size: 8px;
 }
-p{
-    font-size:24px;
-    font-family: calibri;
+
+div.maintext{
+    margin-top: 175px;
+    position: relative;
 }
+
