@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("candles.png");
+    color:antiquewhite;
+}
+li{
+    list-style: none;
+    float: left;
+}
+a{
+    display: block;
+    padding: 8px;
+    color:antiquewhite;
+    margin-left: auto;
+}
+h1, h2, h3,p{
+    text-align: center;
+    font-family: copperplate gothic;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+ul{
+    font: 14pt calibri;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+}
+p{
+    font-size:24px;
+    font-family: calibri;
+}
